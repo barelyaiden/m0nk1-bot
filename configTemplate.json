@@ -1,0 +1,11 @@
+{
+    "token": "",
+    "prefix": "",
+    "owners": [],
+    "roles": {
+        "survivorRole": ""
+    },
+    "channels": {
+        "welcomeChannel": ""
+    }
+}

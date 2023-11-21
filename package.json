@@ -1,0 +1,31 @@
+{
+  "name": "m0nk1-bot",
+  "version": "1.0.0",
+  "description": "Monki's Personal Robot & Announcer of the Survival Games",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barelyaiden/m0nk1-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "barelyaiden"
+  ],
+  "author": "barelyaiden",
+  "bugs": {
+    "url": "https://github.com/barelyaiden/m0nk1-bot/issues"
+  },
+  "homepage": "https://github.com/barelyaiden/m0nk1-bot#readme",
+  "dependencies": {
+    "@sapphire/framework": "^4.7.1",
+    "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
