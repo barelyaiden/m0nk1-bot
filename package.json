@@ -1,6 +1,6 @@
 {
   "name": "m0nk1-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monki's Personal Robot & Announcer of the Survival Games",
   "main": "src/index.js",
   "scripts": {

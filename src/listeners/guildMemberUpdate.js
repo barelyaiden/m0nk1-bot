@@ -11,7 +11,7 @@ class GuildMemberUpdateListener extends Listener {
 
     async run(oldMember, newMember) {
         if (oldMember.pending && !newMember.pending) {
-            const survivorRole = await newMember.guild.roles.cache.find(role => role.name === roles.survivorRole);
+            const survivorRole = await newMember.guild.roles.cache.get(roles.survivorRoleId);
             return newMember.roles.add(survivorRole);
         }
     }

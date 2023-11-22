@@ -3,9 +3,9 @@
     "prefix": "",
     "owners": [],
     "roles": {
-        "survivorRole": ""
+        "survivorRoleId": ""
     },
     "channels": {
-        "welcomeChannel": ""
+        "welcomeChannelId": ""
     }
 }

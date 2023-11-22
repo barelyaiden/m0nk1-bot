@@ -10,7 +10,7 @@ class GuildMemberAddListener extends Listener {
     }
 
     async run(member) {
-        const welcomeChannel = await member.guild.channels.cache.find(ch => ch.name === channels.welcomeChannel);
+        const welcomeChannel = await member.guild.channels.cache.get(channels.welcomeChannelId);
         await welcomeChannel.send(`Welcome Survivor ${member} to the FNSG Discord! 🏹`);
     }
 }
